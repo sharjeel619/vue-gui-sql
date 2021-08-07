@@ -291,6 +291,16 @@ export default {
           name: "orders",
           tableData: orders,
         },
+        {
+          label: "Categories",
+          name: "categories",
+          tableData: categories,
+        },
+        { label: "Products", name: "products", tableData: products },
+        { label: "Regions", name: "regions", tableData: regions },
+        { label: "Suppliers", name: "suppliers", tableData: suppliers },
+        { label: "Shippers", name: "shippers", tableData: shippers },
+        { label: "Territories", name: "territories", tableData: territories },
       ],
       queryResult: [],
     };
