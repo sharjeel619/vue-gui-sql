@@ -1,0 +1,12 @@
+import categories from "./categories.json";
+import customers from "./customers.json";
+import employee_territories from './employee_territories.json';
+import employees from "./employees.json";
+import order_details from "./order_details.json";
+import orders from "./orders.json";
+import products from "./products.json";
+import regions from "./regions.json";
+import shippers from "./shippers.json";
+import suppliers from "./suppliers.json";
+import territories from "./territories.json";
+export { categories, customers, employee_territories, employees, order_details, orders, products, regions, shippers, suppliers, territories };
