@@ -347,7 +347,7 @@ export default {
           return eval(qStr);
         });
       }
-      if (this.sortOrderSelect && this.sortColumnSelect) {
+      if (this.sortOrderSelect && this.sortColumnSelect && tempData.length) {
         const columnDataType = tempData[0][this.sortColumnSelect];
         if (typeof columnDataType === "string") {
           if (this.sortOrderSelect === "ASC") {
